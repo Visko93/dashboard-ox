@@ -1,0 +1,46 @@
+header {
+  height: 12em;
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll;
+}
+
+header h2 {
+  margin: 0;
+  padding: 0;
+
+  margin-bottom: 1em;
+}
+
+header .slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+header .slider>li {
+  margin-right: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  padding: 1em;
+}
+
+header .slider>li:hover {
+  cursor: pointer;
+  outline: 1px solid #000;
+  border-radius: 2px;
+
+}
+
+.plate {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 0.5em;
+
+}

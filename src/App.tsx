@@ -8,20 +8,24 @@ import './App.css'
 const BASE_URL = 'https://vehicle-api-test.herokuapp.com/api/'
 
 const VehicleCard = ({ color, name, plate_number }: Vehicle) => (
-  <div>
+  <div >
     <h2>{name}</h2>
-    <small>{plate_number}</small>
+    <span className='plate' style={{ backgroundColor: color }}>{plate_number}</span>
+    <span style={{ width: '100%', flex: 1, backgroundColor: color || "transparent" }}></span>
   </div>
 )
 
 
 function App() {
   const [vehicleList, setVehicleList] = React.useState<Array<Vehicle> | []>([])
+  const [focusVehicle, setFocusVehicle] = React.useState<string | null>(null)
+  const dashboardData = React.useRef<TelemetryMessage | null>(null)
 
   const vehicleFetcher = React.useCallback(() => (
     (async () => await apiClient<Vehicle[]>({ url: `${BASE_URL}vehicles` })
     )()
   ), [])
+
 
   React.useEffect(() => {
     (async () => {
@@ -30,6 +34,22 @@ function App() {
     })()
   }, [])
 
+  React.useEffect(() => {
+    if (!focusVehicle) return
+
+    (async () => {
+      const data = await apiClient<TelemetryMessage>({ url: `${BASE_URL}vehicles/${focusVehicle}/telemetry` })
+      if (data) {
+        dashboardData.current = data
+      }
+    })()
+  }, [focusVehicle])
+
+  console.log(dashboardData.current);
+
+  const handleSelection = (id: string) => {
+    setFocusVehicle(id)
+  }
 
   return (
     <div className="App">
@@ -37,8 +57,8 @@ function App() {
         <ul className='slider'>
           {vehicleList.length > 0
             ? vehicleList.map((vehicle) => (
-              <li>
-                <VehicleCard key={vehicle.id} {...vehicle} />
+              <li onClick={() => handleSelection(vehicle.id)}>
+                <VehicleCard key={vehicle.id}  {...vehicle} />
               </li>
             ))
             : null}
