@@ -1622,7 +1622,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             <mesh geometry={nodes.Material3_5.geometry} material={materials.Leather_Stitching} />
             <mesh geometry={nodes.Material2_6.geometry} material={materials['0136_Charcoal']} />
             <mesh geometry={nodes.Material3_6.geometry} material={materials['0137_Black']} />
-            <lineSegments geometry={nodes.Material2_7.geometry} material={materials.edge_color222222255} />
+            <lineSegments geometry={nodes.Material2_37.geometry} material={materials.edge_color222222255} />
             <mesh geometry={nodes.Material2_8.geometry} material={materials.Translucent_Glass_Gray} />
             <mesh geometry={nodes.Material3_7.geometry} material={materials.Chrome_Trim} />
             <mesh geometry={nodes.Material2_9.geometry} material={materials['0136_Charcoal']} />
@@ -1634,14 +1634,14 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             <mesh geometry={nodes.Material2_11.geometry} material={materials['0136_Charcoal']} />
             <mesh geometry={nodes.Material3_12.geometry} material={materials['0137_Black']} />
             <mesh geometry={nodes.Material3_13.geometry} material={materials.Black_Plastic} />
-            <lineSegments geometry={nodes.Material2_12.geometry} material={materials.edge_color101010255} />
+            <lineSegments geometry={nodes.Material2_1.geometry} material={materials.edge_color101010255} />
             <mesh geometry={nodes.Material2_13.geometry} material={materials['0136_Charcoal']} />
             <mesh geometry={nodes.Material3_14.geometry} material={materials.Ferrari_Yellow} />
             <mesh geometry={nodes.Material3_15.geometry} material={materials['0131_Silver']} />
             <mesh geometry={nodes.Material2_14.geometry} material={materials['0136_Charcoal']} />
             <mesh geometry={nodes.Material2_15.geometry} material={materials.material} />
             <mesh geometry={nodes.Material2_16.geometry} material={materials['0137_Black']} />
-            <lineSegments geometry={nodes.Material2_17.geometry} material={materials.edge_color101010255} />
+            <lineSegments geometry={nodes.Material2_1.geometry} material={materials.edge_color101010255} />
             <group position={[0.77, -1.5, 0.05]} scale={0.03}>
               <mesh geometry={nodes.Material3_102.geometry} material={materials.Body_Color} />
               <mesh geometry={nodes.Material2_102.geometry} material={materials['0136_Charcoal']} />
@@ -1657,7 +1657,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             <group position={[0.77, -0.73, 0.05]} scale={0.03}>
               <mesh geometry={nodes.Material3_105.geometry} material={materials.Body_Color} />
               <mesh geometry={nodes.Material2_105.geometry} material={materials['0136_Charcoal']} />
-              <lineSegments geometry={nodes.Material2_106.geometry} material={materials.edge_color15557255} />
+              <lineSegments geometry={nodes.Material2_10.geometry} material={materials.edge_color15557255} />
             </group>
             <group position={[0.78, -0.78, -0.02]} scale={0.03}>
               <mesh geometry={nodes.Material3_106.geometry} material={materials.Body_Color} />
@@ -1666,7 +1666,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             <group position={[-0.77, -0.73, 0.05]} scale={[-0.03, 0.03, 0.03]}>
               <mesh geometry={nodes.Material3_107.geometry} material={materials.Body_Color} />
               <mesh geometry={nodes.Material2_108.geometry} material={materials['0136_Charcoal']} />
-              <lineSegments geometry={nodes.Material2_109.geometry} material={materials.edge_color15557255} />
+              <lineSegments geometry={nodes.Material2_10.geometry} material={materials.edge_color15557255} />
             </group>
             <group position={[-0.78, -0.78, -0.02]} scale={[-0.03, 0.03, 0.03]}>
               <mesh geometry={nodes.Material3_108.geometry} material={materials.Body_Color} />
@@ -1683,7 +1683,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             <group position={[0.52, 0.46, 0.26]} scale={0.03}>
               <mesh geometry={nodes.Material3_111.geometry} material={materials.Body_Color} />
               <mesh geometry={nodes.Material2_113.geometry} material={materials['0136_Charcoal']} />
-              <lineSegments geometry={nodes.Material2_114.geometry} material={materials.edge_color15557255} />
+              <lineSegments geometry={nodes.Material2_11.geometry} material={materials.edge_color15557255} />
             </group>
             <group position={[-0.96, 0.46, 0.26]} scale={0.03}>
               <mesh geometry={nodes.Material3_112.geometry} material={materials.Body_Color} />
@@ -1695,7 +1695,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             </group>
             <mesh geometry={nodes.Material3_16.geometry} material={materials.Body_Color} />
             <mesh geometry={nodes.Material2_18.geometry} material={materials['0136_Charcoal']} />
-            <lineSegments geometry={nodes.Material2_19.geometry} material={materials.edge_color15557255} />
+            <lineSegments geometry={nodes.Material2_1.geometry} material={materials.edge_color15557255} />
             <group position={[0.95, 0.4, 0.48]} scale={0.03}>
               <mesh geometry={nodes.Material3_114.geometry} material={materials['0132_LightGray']} />
               <mesh geometry={nodes.Material2_117.geometry} material={materials['0136_Charcoal']} />
@@ -1717,12 +1717,12 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             <mesh geometry={nodes.Material2_20.geometry} material={materials.Black_Plastic} />
             <mesh geometry={nodes.Material2_21.geometry} material={materials['0131_Silver']} />
             <mesh geometry={nodes.Material2_22.geometry} material={materials.material} />
-            <lineSegments geometry={nodes.Material2_23.geometry} material={materials.edge_color000255} />
+            <lineSegments geometry={nodes.Material2_2.geometry} material={materials.edge_color000255} />
             <mesh geometry={nodes.Material2_24.geometry} material={materials['0136_Charcoal']} />
-            <lineSegments geometry={nodes.Material2_25.geometry} material={materials.edge_color222222255} />
+            <lineSegments geometry={nodes.Material2_2.geometry} material={materials.edge_color222222255} />
             <mesh geometry={nodes.Material2_26.geometry} material={materials['0136_Charcoal']} />
             <mesh geometry={nodes.Material3_17.geometry} material={materials.grille1} />
-            <lineSegments geometry={nodes.Material2_27.geometry} material={materials.edge_color121212255} />
+            <lineSegments geometry={nodes.Material2_2.geometry} material={materials.edge_color121212255} />
             <group position={[0.4, -2.08, 0.38]} scale={0.03}>
               <mesh geometry={nodes.Material3_120.geometry} material={materials.grille1_0} />
               <mesh geometry={nodes.Material2_121.geometry} material={materials['0136_Charcoal']} />
@@ -1731,7 +1731,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               <mesh geometry={nodes.Material3_121.geometry} material={materials.grille1_0} />
               <mesh geometry={nodes.Material2_122.geometry} material={materials['0136_Charcoal']} />
             </group>
-            <lineSegments geometry={nodes.Material2_28.geometry} material={materials.edge_color303030255} />
+            <lineSegments geometry={nodes.Material2_2.geometry} material={materials.edge_color303030255} />
             <mesh geometry={nodes.Material2_29.geometry} material={materials['0136_Charcoal']} />
             <mesh geometry={nodes.Material3_18.geometry} material={materials.Black_Plastic} />
             <mesh geometry={nodes.Material3_19.geometry} material={materials['0133_Gray']} />
@@ -1744,9 +1744,9 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             <mesh geometry={nodes.Material3_24.geometry} material={materials['0133_Gray']} />
             <mesh geometry={nodes.Material3_25.geometry} material={materials['0023_FireBrick']} />
             <mesh geometry={nodes.Material2_32.geometry} material={materials['0136_Charcoal']} />
-            <lineSegments geometry={nodes.Material2_33.geometry} material={materials.edge_color222222255} />
+            <lineSegments geometry={nodes.Material2_3.geometry} material={materials.edge_color222222255} />
             <mesh geometry={nodes.Material2_34.geometry} material={materials['0136_Charcoal']} />
-            <lineSegments geometry={nodes.Material2_35.geometry} material={materials.edge_color222222255} />
+            <lineSegments geometry={nodes.Material2_3.geometry} material={materials.edge_color222222255} />
             <group position={[0.22, -2.11, -0.03]} scale={0.03}>
               <mesh geometry={nodes.Material2_123.geometry} material={materials['0136_Charcoal']} />
               <mesh geometry={nodes.Material3_122.geometry} material={materials['0137_Black']} />
@@ -1759,7 +1759,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             </group>
             <mesh geometry={nodes.Material2_36.geometry} material={materials['0136_Charcoal']} />
             <mesh geometry={nodes.Material2_37.geometry} material={materials['0136_Charcoal']} />
-            <lineSegments geometry={nodes.Material2_38.geometry} material={materials.edge_color222222255} />
+            <lineSegments geometry={nodes.Material2_3.geometry} material={materials.edge_color222222255} />
             <mesh geometry={nodes.Material2_39.geometry} material={materials['0136_Charcoal']} />
             <group position={[0.54, 2.13, 0.23]} scale={0.03}>
               <mesh geometry={nodes.Material2_125.geometry} material={materials.Taillight_Glass} />
@@ -1778,7 +1778,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               <mesh geometry={nodes.Material2_128.geometry} material={materials['0136_Charcoal']} />
             </group>
             <mesh geometry={nodes.Material2_40.geometry} material={materials['0136_Charcoal']} />
-            <lineSegments geometry={nodes.Material2_41.geometry} material={materials.edge_color222222255} />
+            <lineSegments geometry={nodes.Material2_1.geometry} material={materials.edge_color222222255} />
             <mesh geometry={nodes.Material3_26.geometry} material={materials.grille1_2} />
             <mesh geometry={nodes.Material3_27.geometry} material={materials.grille1_3} />
             <mesh geometry={nodes.Material2_42.geometry} material={materials['0136_Charcoal']} />
@@ -1913,7 +1913,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             </group>
             <mesh geometry={nodes.Material2_51.geometry} material={materials['0136_Charcoal']} />
             <mesh geometry={nodes.Material3_35.geometry} material={materials.Black_Plastic} />
-            <lineSegments geometry={nodes.Material2_52.geometry} material={materials.edge_color303030255} />
+            <lineSegments geometry={nodes.Material2_2.geometry} material={materials.edge_color303030255} />
             <group position={[-0.03, -2.2, 0.06]} scale={0.03}>
               <mesh geometry={nodes.Material3_36.geometry} material={materials.Chrome_Trim} />
               <mesh geometry={nodes.Material2_53.geometry} material={materials['0136_Charcoal']} />
@@ -1923,7 +1923,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               <mesh geometry={nodes.Material2_54.geometry} material={materials['0136_Charcoal']} />
             </group>
             <mesh geometry={nodes.Material2_55.geometry} material={materials['0136_Charcoal']} />
-            <lineSegments geometry={nodes.Material2_56.geometry} material={materials.edge_color222222255} />
+            <lineSegments geometry={nodes.Material2_5.geometry} material={materials.edge_color222222255} />
             <group position={[-0.8, -2.15, 0.37]} scale={0.03}>
               <mesh geometry={nodes.Material3_38.geometry} material={materials.Body_Color} />
               <mesh geometry={nodes.Material2_57.geometry} material={materials['0136_Charcoal']} />
@@ -1937,7 +1937,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                   <mesh geometry={nodes.Material2_808.geometry} material={materials['0136_Charcoal']} />
                   <mesh geometry={nodes.Material3_488.geometry} material={materials.Leather_Stitching} />
                   <mesh geometry={nodes.Material3_489.geometry} material={materials.Leather_1} />
-                  <lineSegments geometry={nodes.Material2_809.geometry} material={materials.edge_color404043255} />
+                  <lineSegments geometry={nodes.Material2_80.geometry} material={materials.edge_color404043255} />
                 </group>
                 <group position={[0.08, -0.42, 0.01]} scale={0.03}>
                   <mesh geometry={nodes.Material2_810.geometry} material={materials['0136_Charcoal']} />
@@ -1954,7 +1954,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                   <mesh geometry={nodes.Material3_492.geometry} material={materials['0021_DarkRed']} />
                   <mesh geometry={nodes.Material2_811.geometry} material={materials['0136_Charcoal']} />
                   <mesh geometry={nodes.Material3_493.geometry} material={materials.Black_Plastic} />
-                  <lineSegments geometry={nodes.Material2_812.geometry} material={materials.edge_color222222255} />
+                  <lineSegments geometry={nodes.Material2_81.geometry} material={materials.edge_color222222255} />
                 </group>
               </group>
             </group>
@@ -1967,7 +1967,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                   <mesh geometry={nodes.Material2_813.geometry} material={materials['0136_Charcoal']} />
                   <mesh geometry={nodes.Material3_494.geometry} material={materials.Leather_Stitching} />
                   <mesh geometry={nodes.Material3_495.geometry} material={materials.Leather_1} />
-                  <lineSegments geometry={nodes.Material2_814.geometry} material={materials.edge_color404043255} />
+                  <lineSegments geometry={nodes.Material2_14.geometry} material={materials.edge_color404043255} />
                 </group>
                 <group position={[0.08, -0.42, 0.01]} scale={0.03}>
                   <mesh geometry={nodes.Material2_815.geometry} material={materials['0136_Charcoal']} />
@@ -1984,24 +1984,24 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                   <mesh geometry={nodes.Material3_498.geometry} material={materials['0021_DarkRed']} />
                   <mesh geometry={nodes.Material2_816.geometry} material={materials['0136_Charcoal']} />
                   <mesh geometry={nodes.Material3_499.geometry} material={materials.Black_Plastic} />
-                  <lineSegments geometry={nodes.Material2_817.geometry} material={materials.edge_color222222255} />
+                  <lineSegments geometry={nodes.Material2_81.geometry} material={materials.edge_color222222255} />
                 </group>
               </group>
             </group>
             <group position={[0.84, -0.78, -0.02]} scale={0.03}>
               <mesh geometry={nodes.Material3_39.geometry} material={materials.Body_Color} />
               <mesh geometry={nodes.Material2_58.geometry} material={materials['0136_Charcoal']} />
-              <lineSegments geometry={nodes.Material2_59.geometry} material={materials.edge_color15557255} />
+              <lineSegments geometry={nodes.Material2_5.geometry} material={materials.edge_color15557255} />
             </group>
             <group position={[-0.84, -0.78, -0.02]} scale={[-0.03, 0.03, 0.03]}>
               <mesh geometry={nodes.Material3_40.geometry} material={materials.Body_Color} />
               <mesh geometry={nodes.Material2_60.geometry} material={materials['0136_Charcoal']} />
-              <lineSegments geometry={nodes.Material2_61.geometry} material={materials.edge_color15557255} />
+              <lineSegments geometry={nodes.Material2_1.geometry} material={materials.edge_color15557255} />
             </group>
             <group position={[0.78, -0.78, -0.02]} scale={0.03}>
               <group position={[-30.63, 30.71, 0.66]} scale={39.37}>
                 <mesh geometry={nodes.Material2_177.geometry} material={materials['0136_Charcoal']} />
-                <lineSegments geometry={nodes.Material2_178.geometry} material={materials.edge_color222222255} />
+                <lineSegments geometry={nodes.Material2_18.geometry} material={materials.edge_color222222255} />
               </group>
               <group position={[-30.63, 30.71, 0.66]} scale={39.37}>
                 <mesh geometry={nodes.Material3_174.geometry} material={materials.Body_Color} />
@@ -2011,7 +2011,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             <group position={[-0.78, -0.78, -0.02]} scale={[-0.03, 0.03, 0.03]}>
               <group position={[-30.63, 30.71, 0.66]} scale={39.37}>
                 <mesh geometry={nodes.Material2_180.geometry} material={materials['0136_Charcoal']} />
-                <lineSegments geometry={nodes.Material2_181.geometry} material={materials.edge_color222222255} />
+                <lineSegments geometry={nodes.Material2_11.geometry} material={materials.edge_color222222255} />
               </group>
               <group position={[-30.63, 30.71, 0.66]} scale={39.37}>
                 <mesh geometry={nodes.Material3_175.geometry} material={materials.Body_Color} />
@@ -2065,12 +2065,12 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               <group position={[35.39, 2.15, 0.16]}>
                 <mesh geometry={nodes.Material2_185.geometry} material={materials['0136_Charcoal']} />
                 <mesh geometry={nodes.Material3_178.geometry} material={materials.Black_Plastic} />
-                <lineSegments geometry={nodes.Material2_186.geometry} material={materials.edge_color303030255} />
+                <lineSegments geometry={nodes.Material2_16.geometry} material={materials.edge_color303030255} />
               </group>
               <group position={[18.96, 2.15, 0.16]} scale={[-1, 1, 1]}>
                 <mesh geometry={nodes.Material2_187.geometry} material={materials['0136_Charcoal']} />
                 <mesh geometry={nodes.Material3_179.geometry} material={materials.Black_Plastic} />
-                <lineSegments geometry={nodes.Material2_188.geometry} material={materials.edge_color303030255} />
+                <lineSegments geometry={nodes.Material2_18.geometry} material={materials.edge_color303030255} />
               </group>
               <mesh geometry={nodes.Material3_52.geometry} material={materials.Black_Plastic} />
               <mesh geometry={nodes.Material2_70.geometry} material={materials['0136_Charcoal']} />
@@ -2080,7 +2080,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               <mesh geometry={nodes.Material2_71.geometry} material={materials['0136_Charcoal']} />
             </group>
             <group position={[0.92, 0.84, 0.18]} scale={0.03}>
-              <lineSegments geometry={nodes.Material2_72.geometry} material={materials.edge_color198198198255} />
+              <lineSegments geometry={nodes.Material2_2.geometry} material={materials.edge_color198198198255} />
               <mesh geometry={nodes.Material2_73.geometry} material={materials['0136_Charcoal']} />
               <mesh geometry={nodes.Material3_54.geometry} material={materials.Chrome_02} />
             </group>
@@ -2110,7 +2110,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               <group position={[-23.49, 80.56, -12.9]} scale={39.37}>
                 <mesh geometry={nodes.Material3_181.geometry} material={materials['0135_DarkGray']} />
                 <mesh geometry={nodes.Material2_191.geometry} material={materials['0136_Charcoal']} />
-                <lineSegments geometry={nodes.Material2_192.geometry} material={materials.edge_color585858255} />
+                <lineSegments geometry={nodes.Material2_92.geometry} material={materials.edge_color585858255} />
               </group>
               <group position={[-23.49, 80.56, -12.9]} scale={39.37}>
                 <mesh geometry={nodes.Material3_182.geometry} material={materials.Chrome_Trim} />
@@ -2143,7 +2143,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               <group position={[-23.49, 80.56, -12.9]} scale={39.37}>
                 <mesh geometry={nodes.Material3_186.geometry} material={materials['0135_DarkGray']} />
                 <mesh geometry={nodes.Material2_199.geometry} material={materials['0136_Charcoal']} />
-                <lineSegments geometry={nodes.Material2_200.geometry} material={materials.edge_color585858255} />
+                <lineSegments geometry={nodes.Material2_20.geometry} material={materials.edge_color585858255} />
               </group>
               <group position={[-23.49, 80.56, -12.9]} scale={39.37}>
                 <mesh geometry={nodes.Material3_187.geometry} material={materials.Chrome_Trim} />
@@ -2263,7 +2263,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               <mesh geometry={nodes.Material3_71.geometry} material={materials.Interior_1} />
               <mesh geometry={nodes.Material3_72.geometry} material={materials.Leather_Stitching} />
               <mesh geometry={nodes.Material3_73.geometry} material={materials.Leather_1} />
-              <lineSegments geometry={nodes.Material2_84.geometry} material={materials.edge_color000255} />
+              <lineSegments geometry={nodes.Material2_4.geometry} material={materials.edge_color000255} />
             </group>
             <group position={[-0.8, -1.12, 0.06]} scale={0.03}>
               <group position={[57.18, 23.72, 19.77]}>
@@ -2273,7 +2273,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               <mesh geometry={nodes.Material3_74.geometry} material={materials['0132_LightGray']} />
               <mesh geometry={nodes.Material3_75.geometry} material={materials['0133_Gray']} />
               <mesh geometry={nodes.Material3_76.geometry} material={materials['0021_DarkRed']} />
-              <lineSegments geometry={nodes.Material2_85.geometry} material={materials.edge_color219219219255} />
+              <lineSegments geometry={nodes.Material2_5.geometry} material={materials.edge_color219219219255} />
               <mesh geometry={nodes.Material2_86.geometry} material={materials['0136_Charcoal']} />
               <mesh geometry={nodes.Material2_87.geometry} material={materials['0136_Charcoal']} />
               <mesh geometry={nodes.Material3_77.geometry} material={materials['0137_Black']} />
@@ -2281,10 +2281,10 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               <mesh geometry={nodes.Material3_79.geometry} material={materials.Interior_1} />
               <mesh geometry={nodes.Material3_80.geometry} material={materials.Chrome_Trim} />
               <mesh geometry={nodes.Material3_81.geometry} material={materials['0131_Silver']} />
-              <lineSegments geometry={nodes.Material2_88.geometry} material={materials.edge_color303030255} />
+              <lineSegments geometry={nodes.Material2_8.geometry} material={materials.edge_color303030255} />
             </group>
             <group position={[-0.65, -0.58, 0.52]} scale={0.03}>
-              <lineSegments geometry={nodes.Material2_89.geometry} material={materials.edge_color169169169255} />
+              <lineSegments geometry={nodes.Material2_8.geometry} material={materials.edge_color169169169255} />
               <mesh geometry={nodes.Material2_90.geometry} material={materials['0136_Charcoal']} />
               <mesh geometry={nodes.Material3_82.geometry} material={materials['0132_LightGray']} />
             </group>
@@ -2294,7 +2294,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                 <mesh geometry={nodes.Material2_222.geometry} material={materials['0136_Charcoal']} />
               </group>
               <group position={[57.6, 30.24, 12.86]}>
-                <lineSegments geometry={nodes.Material2_223.geometry} material={materials.edge_color128128128255} />
+                <lineSegments geometry={nodes.Material2_22.geometry} material={materials.edge_color128128128255} />
                 <mesh geometry={nodes.Material2_224.geometry} material={materials['0136_Charcoal']} />
                 <mesh geometry={nodes.Material3_203.geometry} material={materials['0133_Gray']} />
               </group>
@@ -2303,7 +2303,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                 <mesh geometry={nodes.Material3_204.geometry} material={materials.Black_Plastic} />
               </group>
               <group position={[2.41, 30.24, 12.86]} scale={[-1, 1, 1]}>
-                <lineSegments geometry={nodes.Material2_226.geometry} material={materials.edge_color128128128255} />
+                <lineSegments geometry={nodes.Material2_22.geometry} material={materials.edge_color128128128255} />
                 <mesh geometry={nodes.Material2_227.geometry} material={materials['0136_Charcoal']} />
                 <mesh geometry={nodes.Material3_205.geometry} material={materials['0133_Gray']} />
               </group>
@@ -2331,7 +2331,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
               <mesh geometry={nodes.Material3_89.geometry} material={materials.Black_Plastic} />
               <mesh geometry={nodes.Material3_90.geometry} material={materials.Leather_Stitching} />
               <mesh geometry={nodes.Material3_91.geometry} material={materials.Leather_1} />
-              <lineSegments geometry={nodes.Material2_94.geometry} material={materials.edge_color404043255} />
+              <lineSegments geometry={nodes.Material2_4.geometry} material={materials.edge_color404043255} />
               <mesh geometry={nodes.Material3_92.geometry} material={materials.Carbon_Fiber} />
             </group>
             <group position={[0.12, -0.26, 0.94]} scale={0.03}>
@@ -2349,7 +2349,7 @@ export function Model(props: JSX.IntrinsicElements['group']) {
             </group>
             <group position={[0.36, -0.68, 0.59]} rotation={[-1.86, -1.35, -2.05]} scale={0.03}>
               <group position={[-11.61, 26.9, -24.88]} scale={39.37}>
-                <lineSegments geometry={nodes.Material2_230.geometry} material={materials.edge_color000255} />
+                <lineSegments geometry={nodes.Material2_20.geometry} material={materials.edge_color000255} />
                 <mesh geometry={nodes.Material2_231.geometry} material={materials['0136_Charcoal']} />
                 <mesh geometry={nodes.Material3_208.geometry} material={materials.material} />
               </group>
@@ -2642,11 +2642,11 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                   <mesh geometry={nodes.Material2_832.geometry} material={materials['0136_Charcoal']} />
                   <mesh geometry={nodes.Material3_512.geometry} material={materials.Brake_Caliper} />
                   <mesh geometry={nodes.Material2_833.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_834.geometry} material={materials.edge_color192192192255} />
-                  <lineSegments geometry={nodes.Material2_835.geometry} material={materials.edge_color192192192255} />
-                  <lineSegments geometry={nodes.Material2_836.geometry} material={materials.edge_color169169169255} />
-                  <lineSegments geometry={nodes.Material2_837.geometry} material={materials.edge_color128128128255} />
-                  <lineSegments geometry={nodes.Material2_838.geometry} material={materials.edge_color128128128255} />
+                  <lineSegments geometry={nodes.Material2_34.geometry} material={materials.edge_color192192192255} />
+                  <lineSegments geometry={nodes.Material2_83.geometry} material={materials.edge_color192192192255} />
+                  <lineSegments geometry={nodes.Material2_36.geometry} material={materials.edge_color169169169255} />
+                  <lineSegments geometry={nodes.Material2_37.geometry} material={materials.edge_color128128128255} />
+                  <lineSegments geometry={nodes.Material2_83.geometry} material={materials.edge_color128128128255} />
                 </group>
                 <group position={[-29.44, 61.37, -0.4]} scale={39.37}>
                   <mesh geometry={nodes.Material3_513.geometry} material={materials.Brake_Caliper} />
@@ -2655,12 +2655,12 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                 <group position={[2.63, 15.66, -0.01]} rotation={[0, 0, Math.PI]} scale={1.08}>
                   <mesh geometry={nodes.Material3_514.geometry} material={materials['0135_DarkGray']} />
                   <mesh geometry={nodes.Material2_840.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_841.geometry} material={materials.edge_color585858255} />
+                  <lineSegments geometry={nodes.Material2_81.geometry} material={materials.edge_color585858255} />
                 </group>
                 <group position={[3.05, 15.66, -0.01]} rotation={[0, 0, -Math.PI]} scale={[-1.08, 1.08, 1.08]}>
                   <mesh geometry={nodes.Material3_515.geometry} material={materials['0135_DarkGray']} />
                   <mesh geometry={nodes.Material2_842.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_843.geometry} material={materials.edge_color585858255} />
+                  <lineSegments geometry={nodes.Material2_43.geometry} material={materials.edge_color585858255} />
                 </group>
               </group>
               <group position={[2.29, 9.17, 8.14]} scale={43.38}>
@@ -2943,11 +2943,11 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                   <mesh geometry={nodes.Material2_854.geometry} material={materials['0136_Charcoal']} />
                   <mesh geometry={nodes.Material3_526.geometry} material={materials.Brake_Caliper} />
                   <mesh geometry={nodes.Material2_855.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_856.geometry} material={materials.edge_color192192192255} />
-                  <lineSegments geometry={nodes.Material2_857.geometry} material={materials.edge_color192192192255} />
-                  <lineSegments geometry={nodes.Material2_858.geometry} material={materials.edge_color169169169255} />
-                  <lineSegments geometry={nodes.Material2_859.geometry} material={materials.edge_color128128128255} />
-                  <lineSegments geometry={nodes.Material2_860.geometry} material={materials.edge_color128128128255} />
+                  <lineSegments geometry={nodes.Material2_86.geometry} material={materials.edge_color192192192255} />
+                  <lineSegments geometry={nodes.Material2_57.geometry} material={materials.edge_color192192192255} />
+                  <lineSegments geometry={nodes.Material2_58.geometry} material={materials.edge_color169169169255} />
+                  <lineSegments geometry={nodes.Material2_5.geometry} material={materials.edge_color128128128255} />
+                  <lineSegments geometry={nodes.Material2_60.geometry} material={materials.edge_color128128128255} />
                 </group>
                 <group position={[-29.44, 61.37, -0.4]} scale={39.37}>
                   <mesh geometry={nodes.Material3_527.geometry} material={materials.Brake_Caliper} />
@@ -2956,12 +2956,12 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                 <group position={[2.63, 15.66, -0.01]} rotation={[0, 0, Math.PI]} scale={1.08}>
                   <mesh geometry={nodes.Material3_528.geometry} material={materials['0135_DarkGray']} />
                   <mesh geometry={nodes.Material2_862.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_863.geometry} material={materials.edge_color585858255} />
+                  <lineSegments geometry={nodes.Material2_63.geometry} material={materials.edge_color585858255} />
                 </group>
                 <group position={[3.05, 15.66, -0.01]} rotation={[0, 0, -Math.PI]} scale={[-1.08, 1.08, 1.08]}>
                   <mesh geometry={nodes.Material3_529.geometry} material={materials['0135_DarkGray']} />
                   <mesh geometry={nodes.Material2_864.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_865.geometry} material={materials.edge_color585858255} />
+                  <lineSegments geometry={nodes.Material2_65.geometry} material={materials.edge_color585858255} />
                 </group>
               </group>
               <group position={[2.29, 9.17, 8.14]} scale={43.38}>
@@ -3334,11 +3334,11 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                   <mesh geometry={nodes.Material2_876.geometry} material={materials['0136_Charcoal']} />
                   <mesh geometry={nodes.Material3_540.geometry} material={materials.Brake_Caliper} />
                   <mesh geometry={nodes.Material2_877.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_878.geometry} material={materials.edge_color192192192255} />
-                  <lineSegments geometry={nodes.Material2_879.geometry} material={materials.edge_color192192192255} />
-                  <lineSegments geometry={nodes.Material2_880.geometry} material={materials.edge_color169169169255} />
-                  <lineSegments geometry={nodes.Material2_881.geometry} material={materials.edge_color128128128255} />
-                  <lineSegments geometry={nodes.Material2_882.geometry} material={materials.edge_color128128128255} />
+                  <lineSegments geometry={nodes.Material2_78.geometry} material={materials.edge_color192192192255} />
+                  <lineSegments geometry={nodes.Material2_79.geometry} material={materials.edge_color192192192255} />
+                  <lineSegments geometry={nodes.Material2_80.geometry} material={materials.edge_color169169169255} />
+                  <lineSegments geometry={nodes.Material2_81.geometry} material={materials.edge_color128128128255} />
+                  <lineSegments geometry={nodes.Material2_82.geometry} material={materials.edge_color128128128255} />
                 </group>
                 <group position={[-29.44, 61.37, -0.4]} scale={39.37}>
                   <mesh geometry={nodes.Material3_541.geometry} material={materials.Brake_Caliper} />
@@ -3347,12 +3347,12 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                 <group position={[2.63, 15.66, -0.01]} rotation={[0, 0, Math.PI]} scale={1.08}>
                   <mesh geometry={nodes.Material3_542.geometry} material={materials['0135_DarkGray']} />
                   <mesh geometry={nodes.Material2_884.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_885.geometry} material={materials.edge_color585858255} />
+                  <lineSegments geometry={nodes.Material2_5.geometry} material={materials.edge_color585858255} />
                 </group>
                 <group position={[3.05, 15.66, -0.01]} rotation={[0, 0, -Math.PI]} scale={[-1.08, 1.08, 1.08]}>
                   <mesh geometry={nodes.Material3_543.geometry} material={materials['0135_DarkGray']} />
                   <mesh geometry={nodes.Material2_886.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_887.geometry} material={materials.edge_color585858255} />
+                  <lineSegments geometry={nodes.Material2_87.geometry} material={materials.edge_color585858255} />
                 </group>
               </group>
               <group position={[2.29, 9.17, 8.14]} scale={43.38}>
@@ -3635,11 +3635,11 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                   <mesh geometry={nodes.Material2_898.geometry} material={materials['0136_Charcoal']} />
                   <mesh geometry={nodes.Material3_554.geometry} material={materials.Brake_Caliper} />
                   <mesh geometry={nodes.Material2_899.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_900.geometry} material={materials.edge_color192192192255} />
-                  <lineSegments geometry={nodes.Material2_901.geometry} material={materials.edge_color192192192255} />
-                  <lineSegments geometry={nodes.Material2_902.geometry} material={materials.edge_color169169169255} />
-                  <lineSegments geometry={nodes.Material2_903.geometry} material={materials.edge_color128128128255} />
-                  <lineSegments geometry={nodes.Material2_904.geometry} material={materials.edge_color128128128255} />
+                  <lineSegments geometry={nodes.Material2_90.geometry} material={materials.edge_color192192192255} />
+                  <lineSegments geometry={nodes.Material2_90.geometry} material={materials.edge_color192192192255} />
+                  <lineSegments geometry={nodes.Material2_90.geometry} material={materials.edge_color169169169255} />
+                  <lineSegments geometry={nodes.Material2_90.geometry} material={materials.edge_color128128128255} />
+                  <lineSegments geometry={nodes.Material2_90.geometry} material={materials.edge_color128128128255} />
                 </group>
                 <group position={[-29.44, 61.37, -0.4]} scale={39.37}>
                   <mesh geometry={nodes.Material3_555.geometry} material={materials.Brake_Caliper} />
@@ -3648,12 +3648,12 @@ export function Model(props: JSX.IntrinsicElements['group']) {
                 <group position={[2.63, 15.66, -0.01]} rotation={[0, 0, Math.PI]} scale={1.08}>
                   <mesh geometry={nodes.Material3_556.geometry} material={materials['0135_DarkGray']} />
                   <mesh geometry={nodes.Material2_906.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_907.geometry} material={materials.edge_color585858255} />
+                  <lineSegments geometry={nodes.Material2_90.geometry} material={materials.edge_color585858255} />
                 </group>
                 <group position={[3.05, 15.66, -0.01]} rotation={[0, 0, -Math.PI]} scale={[-1.08, 1.08, 1.08]}>
                   <mesh geometry={nodes.Material3_557.geometry} material={materials['0135_DarkGray']} />
                   <mesh geometry={nodes.Material2_908.geometry} material={materials['0136_Charcoal']} />
-                  <lineSegments geometry={nodes.Material2_909.geometry} material={materials.edge_color585858255} />
+                  <lineSegments geometry={nodes.Material2_90.geometry} material={materials.edge_color585858255} />
                 </group>
               </group>
               <group position={[2.29, 9.17, 8.14]} scale={43.38}>

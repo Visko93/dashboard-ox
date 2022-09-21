@@ -1,8 +1,10 @@
 header {
-  height: 12em;
+  height: 27vh;
   width: 100%;
   flex: 1;
-  overflow-y: scroll;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
 }
 
 header h2 {
