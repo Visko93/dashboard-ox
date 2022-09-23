@@ -1,10 +1,10 @@
 import * as React from 'react'
-import { Canvas, ThreeElements, useFrame, useThree } from '@react-three/fiber'
+import { Canvas, ThreeElements, useFrame, useLoader, useThree } from '@react-three/fiber'
 import { apiClient } from './api'
 import type { TelemetryMessage, Vehicle } from './api/types'
 import { Model as Car } from "../Car";
 import './App.css'
-import { GradientTexture, OrbitControls, PerspectiveCamera, Plane, PresentationControls } from '@react-three/drei';
+import { GradientTexture, Html, OrbitControls, PerspectiveCamera, Plane, PresentationControls } from '@react-three/drei';
 import THREE, { Shape, Vector2, Vector3 } from 'three';
 
 const BASE_URL = 'https://vehicle-api-test.herokuapp.com/api/'
@@ -18,40 +18,52 @@ const VehicleCard = ({ color, name, plate_number }: Vehicle) => (
   </div>
 )
 
+const ProgressBar = ({ max, min, value }: { max: number, min: number, value: number }) => {
+  const bar = React.useRef<THREE.Mesh>(null!)
+
+  return (
+    <mesh ref={bar} position={[5, 3, 1.5]} >
+      <boxGeometry args={[5, 2, 2]} />
+      <meshStandardMaterial color={'#FF0'} />
+    </mesh>
+  )
+}
+const Text = ({ text, color = "#000" }: { text: string, color?: string }) => {
+  return (
+    <Html>
+      <div>
+        <h3 style={{ color: color }}>
+          {text}
+        </h3>
+      </div>
+    </Html>)
+}
+
 function Panel({ userData }: ThreeElements['mesh']) {
   const { setSize } = useThree()
 
   const mesh = React.useRef<THREE.Mesh>(null!)
-  const bar = React.useRef<THREE.Mesh>(null!)
   const [hovered, setHover] = React.useState(false)
   return (
     <group>
       <mesh >
         <boxGeometry args={[20, 12, 1]} />
-        <meshStandardMaterial color={'#0c0c0c'} transparent />
       </mesh>
-      <mesh ref={bar} position={[5, 3, 1.5]} >
-        <extrudeGeometry args={[new Shape([new Vector2(2, 1), new Vector2(- 2, 1), new Vector2(- 2, - 0.25), new Vector2(2, - 0.25)])]} />
-        <meshStandardMaterial color={'green'} />
-      </mesh>
-      <mesh ref={bar} position={[5, 3, 1.5]} >
-        <extrudeGeometry args={[new Shape([new Vector2(2, 1), new Vector2(- 2, 1), new Vector2(- 2, - 0.25), new Vector2(2, - 0.25)])]} />
 
-      </mesh>
-      <mesh ref={bar} position={[5, 1, 1.5]} >
-        <extrudeGeometry args={[new Shape([new Vector2(2, 1), new Vector2(- 2, 1), new Vector2(- 2, - 0.25), new Vector2(2, - 0.25)])]} />
-      </mesh>
-      <mesh ref={bar} position={[5, -1, 1.5]} >
-        <extrudeGeometry args={[new Shape([new Vector2(2, 1), new Vector2(- 2, 1), new Vector2(- 2, - 0.25), new Vector2(2, - 0.25)])]} />
-      </mesh>
-      <mesh position={[5, -5, 1.5]}>
-        <circleGeometry args={[2.5, 100, Math.PI * 2, Math.PI]} />
-        <meshBasicMaterial color={'#FFF'} />
-      </mesh>
-      <mesh position={[5, -5, 1.5]} rotation={[Math.PI / 2, 0, 0]}>
-        <circleGeometry args={[2.5, 100, Math.PI * 2, Math.PI * userData?.speed / 100]} />
-        <meshBasicMaterial color={'#0c0c0c'} />
-      </mesh>
+      <ProgressBar min={0} max={100} value={userData?.battery_level} />
+
+      <group>
+
+        <mesh position={[5, -5, 1.5]}>
+          <ringGeometry args={[0, 4, 100, 8, 0, Math.PI]} />
+          <meshBasicMaterial color={'#040404'} />
+        </mesh>
+        <mesh position={[5, -5, 1.55]} >
+          <ringGeometry args={[1, 3, 100, 0, Math.PI * 2, Math.PI * ((userData?.speed / 100))]} />
+          <meshBasicMaterial color={'#1c9706'} />
+        </mesh>
+        <Text text={String(userData?.speed)} color={"#1c9706"} />
+      </group>
     </group>
   )
 }
