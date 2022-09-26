@@ -37,12 +37,25 @@ header .slider>li:hover {
   cursor: pointer;
   outline: 1px solid #000;
   border-radius: 2px;
-
 }
+header .slider>li:has(.active) .slider>li:hover {
+  border-radius: 1em;
+}
+
 
 .plate {
   border: 1px solid #000;
   border-radius: 4px;
   padding: 0.5em;
 
+}
+
+.active {
+  color: #FFF;
+
+  background-color: var(--active-color);
+  padding: 0.225em;
+  border-radius: 1em;
+
+  transition: background 300ms ease-in, padding 300ms ease-out;
 }

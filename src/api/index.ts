@@ -1,6 +1,3 @@
-export { }
-
-
 type Client = {
     url: string;
     query?: string
